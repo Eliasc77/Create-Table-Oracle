@@ -10,8 +10,7 @@ telefono char(10),
 salario number (6,2)
 )
 ```
-
-##### table USUARIOS created.
+> table USUARIOS created.
 
 #### Consultamos nuestra tabla
 ```sql
@@ -21,3 +20,4 @@ select * from usuarios;
  | idusuario            | nombre           |  fecha_nacimiento   |   telefono   |   salario   |
  | ---------------------|:----------------:|--------------------:|-------------:|------------:|
  
+> una funcion importante que debemos saber es la función describe: Esta funcion nos muestra como quedo configurada nuestra tabla al momento de diseñar losc campos y los tipos de datos.
