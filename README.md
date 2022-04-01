@@ -20,4 +20,7 @@ select * from usuarios;
  | idusuario            | nombre           |  fecha_nacimiento   |   telefono   |   salario   |
  | ---------------------|:----------------:|--------------------:|-------------:|------------:|
  
-> una funcion importante que debemos saber es la función describe: Esta funcion nos muestra como quedo configurada nuestra tabla al momento de diseñar losc campos y los tipos de datos.
+> una funcion importante que debemos saber es la función **describe**: Esta funcion nos muestra como quedo configurada nuestra tabla al momento de diseñar los campos y los tipos de datos.
+```sql
+describe usuarios;
+```
